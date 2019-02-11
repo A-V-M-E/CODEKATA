@@ -1,16 +1,21 @@
 #include <stdio.h>
  
-int main(void) {
+int main() 
+{
 	int n;
-	printf("INPUT");
+	printf("INPUT:");
 	scanf("%d",&n);
-	if(n%2==0)
+	if(n<0)
 	{
-		printf("POSITIVE");
+	printf("Output \nNEGATIVE");
 	}
-	else
+	if(n>0)
 	{
-		printf("NEGATIVE");
+	printf("Output \nPOSITIVE");
+	}
+	if(n==0)
+	{
+	printf("Output \nZERO");
 	}
 	return 0;
 }
