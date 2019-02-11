@@ -2,14 +2,15 @@
 
 int main(void) {
 	int num;
+	printf("INPUT:");
 	if(num%2==0)
 	{
-		printf("EVEN");
+		printf("Output: \nEVEN");
 		
 	}
 	else
 	{
-		printf("ODD");
+		printf("Output: \nODD");
 	}
 	return 0;
 }
